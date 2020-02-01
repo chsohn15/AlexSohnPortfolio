@@ -15,21 +15,8 @@
                 
             }
             
-            table{
-                border: 3px rgb(52, 52, 66);
-                margin-left: 5%;
-                margin-right: 5%;
-                padding: 10px;
-                border-collapse: collapse;
-                width: 90%;
-            
-            }
-            th, td {
-                border: 1px  rgb(52, 52, 66);
-                padding: 10px;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }
-            h2, ul, img, form {
+           
+            #contact_me, form {
                 margin: 20px;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             }
@@ -43,6 +30,7 @@
             #menu > ul > li {
                 float: left;
                 padding: 10px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             }
             #menu > ul > li > a {
                 display: block;
@@ -54,9 +42,6 @@
             /* Change link to gray on hover */
             #menu >ul >li > a: hover {
                 background-color:gray; 
-            }
-            #welcome {
-                text-align: center;
             }
             
         </style>
@@ -74,9 +59,13 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
-        <div id="welcome">
-            <h2>Welcome to my professional portfolio!</h2>
+        <div id="contact_me">
+            Inquiries? Please fill out the form below. 
         </div>
-        <img src="../chsohn15/portfolio/images/mecheng1_resize_md.jpg" width="50%" alt="Sample picture">
+        <form>
+            <input type="text" placeholder="Email Address" name="contact">
+            <input type="text" placeholder="Questions or Comments" name="contact">
+            <button>Submit</button>
+        </form>
     </body>
 </html>
