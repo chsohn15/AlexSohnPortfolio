@@ -14,25 +14,6 @@
                 font-size: 28px;
                 
             }
-            
-            table{
-                border: 3px rgb(52, 52, 66);
-                margin-left: 5%;
-                margin-right: 5%;
-                padding: 10px;
-                border-collapse: collapse;
-                width: 90%;
-            
-            }
-            th, td {
-                border: 1px  rgb(52, 52, 66);
-                padding: 10px;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }
-            h2, ul, img, form {
-                margin: 20px;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }
             #menu > ul {
                 list-style-type: none;
                 margin: 20px;
@@ -51,14 +32,25 @@
                 padding: 14px 16 px;
                 text-decoration: none;
             }
-            /* Change link to gray on hover */
+            /* Change link to gray on hover 
             #menu >ul >li > a: hover {
                 background-color:gray; 
-            }
-            #welcome {
-                text-align: center;
-            }
+            } */
+           
+            table{
+                border: 3px black;
+                margin-left: 5%;
+                margin-right: 5%;
+                padding: 10px;
+                border-collapse: collapse;
+                width: 90%;
             
+            }
+            th, td {
+                border: 1px black;
+                padding: 10px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
         </style>
     </head>
     <body>
@@ -67,21 +59,26 @@
         </div>
         <div id="menu">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="work.html">Work Experience</a></li>
                 <li><a href="#">About Me</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        </div>
-        <div id="welcome">
-            <h2>Welcome to my professional portfolio!</h2>
-        </div>
-        <img src="../chsohn15/portfolio/images/mecheng1_resize_md.jpg" width="50%" alt="Sample picture">
-        <form>
-            <input type="text" placeholder="Comments/Questions" name="comment">
-            <button>Submit</button>
-            </form>
-        </form>
-    </body>
-</html>
+            <table>
+                <tr>
+                    <th>Space Projects</th>
+                    <th>Jenalia Projects</th>
+                    <th>Robotics Team</th>
+                </tr>
+                <tr> 
+                    <td>Space I</td>
+                    <td>Jenalia I</td>
+                    <td>Robotics I</td>
+                </tr>
+                <tr>
+                    <td>Space Video</td>
+                    <td>Jenalia Video</td>
+                    <td>Robotics Video</td>
+                </tr>
+            </table>
